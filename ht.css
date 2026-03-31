@@ -1,0 +1,138 @@
+
+
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #00bcd4, #26c6da);
+}
+/* Header */
+.header {
+  background: linear-gradient(to right, #00bcd4, #26c6da);
+  color: white;
+  text-align: center;
+  padding: 18px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Main Layout */
+.main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  height: 500px;
+}
+/* Left Form Panel */
+.form-box {
+  width: 300px;
+  background: #f9fafb;
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.form-box h3 {
+  margin-bottom: 10px;
+}
+
+/* Inputs */
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #00acc1, #039be5);
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Right Event Panel */
+.events-box {
+  flex: 1;
+  background: #f9fafb;
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Top Buttons */
+.top-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.small-btn {
+  flex: 1;
+  padding: 10px;
+  background: linear-gradient(to right, #00bcd4, #039be5);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* Event Card */
+.event-card {
+  background: white;
+  padding: 14px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  border-left: 5px solid #00acc1;
+  position: relative;
+}
+
+.event-card h4 {
+  margin: 0;
+}
+
+
+.tag {
+  display: inline-block;
+  background: #e0f7fa;
+  color: #00796b;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+/* Delete Button */
+.delete {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: red;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+
+

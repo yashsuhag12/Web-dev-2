@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Async Weather Tracker</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+<h1>☁ Async Weather Tracker</h1>
+
+
+<div class="main">
+
+
+<!-- Search box -->
+
+<div class="card">
+
+<h3>Search City</h3>
+
+<input type="text" id="city" placeholder="Enter city">
+
+<button onclick="getWeather()">Search</button>
+
+
+<h4>Search History</h4>
+
+<ul id="history"></ul>
+
+<button onclick="clearHistory()">Clear</button>
+
+
+</div>
+
+
+
+<!-- Weather info -->
+
+<div class="card">
+
+<h3>Weather Info</h3>
+
+<p>City: <span id="cityName">-</span></p>
+
+<p>Temp: <span id="temp">-</span></p>
+
+<p>Weather: <span id="weather">-</span></p>
+
+<p>Humidity: <span id="humidity">-</span></p>
+
+<p>Wind: <span id="wind">-</span></p>
+
+
+</div>
+
+
+</div>
+
+
+
+<!-- Console -->
+
+<div class="console">
+
+<h3>Console – Event Loop</h3>
+
+<pre id="consoleOutput">
+
+</pre>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
